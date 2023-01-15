@@ -1,0 +1,48 @@
+body{
+    margin:: 20px;
+    background-color: #fdfdfd;
+    default-font: sans-serif;
+}
+form{
+    padding: 12px;
+    width:1px;
+    background-color: #f2f2f2;
+}
+
+input{
+    padding-bottom: 12px;
+    padding-top: 20px;
+    margin-top:8px;
+    solid-border: 1px RGB(204,204,204);
+
+
+
+}
+input[type=submit]{
+    background-color: RGB(76,175,80);
+    text-color:white;
+    padding-left:20px;
+    padding-right:14px;
+    hover-color: background-color RGB(69,160,73);
+
+
+}
+ input[type=submit]:hover{
+    background-color: RGB(69,160,73);
+
+}
+
+
+button[type=submit]{
+    background-color: RGB(76,175,80);
+    text-color:white;
+    padding-left:20px;
+    padding-right:14px;
+    hover-color: background-color RGB(69,160,73);
+
+
+}
+ button[type=submit]:hover{
+    background-color: RGB(69,160,73);
+
+}

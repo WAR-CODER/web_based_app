@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New User Registration</title>
+
+    <link rel="stylesheet" href="html/css/normalize.css">
+    <link rel="stylesheet" href="html/css/main.css">
+</head>
+<body>
+<h1>New User Registration</h1>
+
+<form>
+    <ul>
+        <label for="firstname">Your first name</label>
+        <input type="text" id="firstname" name="firstname" required autofocus></br></br>
+
+        <label for="lastname">Your last name</label>
+        <input type="text" id="lastname" name="lastname"  required></br></br>
+        <label for="email">Your email address</label>
+        <input type="email" id="email" name="email" required></br></br>
+        <label for="password">Your password must be at least 8 characters and must include numbers and uppercase letters.</label>
+        <input type="password" id="password" name="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]$" minlength="8" placeholder="Enter your password" required></br></br>
+        <label for = "confirmpassword">Enter your password again to confirm it</label>
+        <input type="password" id="confirmpassword"  name="confirmpassword" required></br></br>
+        <!--            <input type ="submit" id="submit" name="submit" value = "Register" placeholder="Enter your password">-->
+        <button type="submit">Register</button>
+
+    </ul>
+
+</form>
+<a href="./ts_and_cs.html">Terms and Conditions</a>
+
+
+
+</body>
+</html>
